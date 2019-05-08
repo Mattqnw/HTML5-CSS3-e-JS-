@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgb(20, 20, 48);
+    padding: 9px 0px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header li a{
+    text-decoration: none;
+    color:rgb(201, 195, 195);
+    
+}
+header ul li{
+background-color: rgba(26, 121, 121, 0.404);
+display: inline-block;
+padding: 10px 10px;
+margin-left: 5px;
+max-width: 1100px;
+}
+
+header li:hover{
+    background-color: lawngreen;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+body{
+background: whitesmoke;
+margin: 0 auto;
+}
+
+.conteudo{
+    height: 2000px;
+}
+.content{
+    margin-top: 70px;
+}
+
+footer{
+    background:  rgb(20, 20, 48);
+    color:rgb(199, 94, 94);
+    padding: 9px 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header h1{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(199, 94, 94);
+margin-top: -27px;
+margin-left: 410px;
+
+}
+.imagem{
+float: right;
+width: 42px;
+height: 42px;
+cursor: pointer;
+cursor: hand;
+/*background-image: url(../imagens/instagra2.png);*/
+background-repeat: no-repeat;
+margin-right: 3px;
+/*position: absolute;*/
+margin-left: 220px;
+margin-top: -1px;
+  
+}
+
+.git{
+    float: right;
+    margin-left: 220px;
+    margin-top: -1px;
+    margin-right: -210px;
+}
+
+.gg{
+    float: right;
+    margin-left: 220px;
+    margin-top: -1px;
+    margin-right: -210px;
+}
+
+.fb{
+    float: right;
+    margin-left: 220px;
+    margin-top: -1px;
+    margin-right: -210px;
+}
+
+.tt{
+    float: right;
+    margin-left: 220px;
+    margin-top: -1px;
+    margin-right: -210px;
+}
+
+.dono{
+ margin-left: 1450px;
+ margin-top: -20px;
+
+}
